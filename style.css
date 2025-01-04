@@ -184,3 +184,21 @@ font-weight: 500;
     height: 100%;
     background: #03a9f4;
 }
+
+/* RESPONSIVE */
+@media (max-width: 1000px) 
+{
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 600) 
+{
+    .about .box {
+        flex-direction: column;
+    }
+    .about .box .year_company {
+        margin-bottom: 5px;
+    }
+}
